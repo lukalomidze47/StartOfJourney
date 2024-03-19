@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Distribute items along the main axis */
+  flex-wrap: wrap;
+  align-items: center; /* Center items along the cross axis */
+}
+
+.flex-item {
+  flex: 1; /* Each item will take an equal portion of the available space */
+  padding: 20px;
+  border: 1px solid #333;
+  margin: 10px;
+}
